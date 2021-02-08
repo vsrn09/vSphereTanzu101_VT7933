@@ -7,7 +7,7 @@ draft: true
 # meta description
 description: "$course_description"
 # course thumbnail
-image: "https://modernapps.ninja/images/courses/$course_short_title.jpg"
+image: "https://modernapps.ninja/images/courses/$course_repo_name.jpg"
 # taxonomy
 tags: ["Tanzu Portfiolio"]
 # teacher
@@ -24,4 +24,5 @@ type: "course"
 content_id: $content_id
 course_short_title: $course_short_title
 course_repo_name: $course_repo_name
+course_creation_date: $current_date
 ---
